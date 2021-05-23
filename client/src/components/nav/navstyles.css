@@ -14,24 +14,24 @@ nav a{
   }
 
 .navbar-nav > li > a:hover{
-    background-color: #BB377D;
-    border:2px solid #BB377D;
+    background-color: #6aa6d1;
+    border:2px solid #6aa6d1;
     border-radius:15px;
     color: #FFFFFF!important;
   }
 
 
   .navbar-nav > li > a:focus{
-    background-color: #BB377D;
-    border:2px solid #BB377D;
+    background-color: #6aa6d1;
+    border:2px solid #6aa6d1;
     border-radius:15px;
     color: #FFFFFF!important
   }
 
   .navbar-nav > li > a:active{
-    border:2px solid #BB377D;
+    border:2px solid #6aa6d1;
     border-radius:15px;
-    background-color: #BB377D;
+    background-color: #6aa6d1;
     color: #FFFFFF!important;
   }
 

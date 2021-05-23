@@ -1,6 +1,5 @@
 .add-container{
-   /* min-height:100vh; */
-   color:#BB377D;
+   color:#6aa6d1;
    overflow: hidden;
 
 }
@@ -54,7 +53,7 @@
       padding: 10px 20px;
       font-family: sans-serif, Arial;
       font-size: 16px;
-      border: 1px solid #BB377D;
+      border: 1px solid #6aa6d1;
       border-radius: 5px;
       cursor: pointer;
   }
@@ -65,11 +64,11 @@
   }
   
   .radio-toolbar input[type="radio"]:focus + label {
-      border: 1px dashed #BB377D;
+      border: 1px dashed #6aa6d1;
   }
   
   .radio-toolbar input[type="radio"]:checked + label {
-      background-color: #BB377D;
+      background-color: #6aa6d1;
       color:white
   }
 
@@ -85,7 +84,7 @@
   height:100%;
   display: flex;
   align-items: center;
-  background: url('./../../images/add.jpeg') no-repeat;
+  background: url('./../../images/mhAdd.jpeg') no-repeat;
   background-size: contain;
 }
 .add-container .text .form-container
@@ -111,7 +110,7 @@
 .add-container .h1-title
 {
     padding-bottom: 6px;
-    border-bottom:6px dotted #BB377D;
+    border-bottom:6px dotted #6aa6d1;
 
 }
 
@@ -127,15 +126,15 @@
     color: white;
     width: 100%;
     padding:10px 20px;
-    background-color: #BB377D;
+    background-color: #6aa6d1;
     border-radius: 5px;
 }
 
 .add-container button#submit:hover
 {
     background-color:white;
-    color:#BB377D;
-    border:1px solid #BB377D;
+    color:#6aa6d1;
+    border:1px solid #6aa6d1;
     border-radius:15px;
 }
 

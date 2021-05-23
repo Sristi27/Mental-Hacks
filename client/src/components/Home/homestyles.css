@@ -2,7 +2,7 @@
     font-family: 'Josefin Sans', sans-serif;
     background-color: white;
     overflow: hidden;
-    color:#BB377D;
+    color:#6aa6d1;
     height: 100vh;
     padding:0;
   }
@@ -15,6 +15,8 @@
     display:flex;
     width: 100%;
     align-items: center;
+    margin-bottom: 2%;
+    padding-bottom:100px;
   }
   .home .header-content h1{
     text-transform: uppercase;
@@ -29,10 +31,10 @@
   .home .header-content button{
     width: 140px;
     margin:20px 10px;
-    color: #BB377D;
+    color: #6aa6d1;
     font-weight: bold;
     font-size: 17px;
-    border:1px solid #BB377D;
+    border:1px solid #6aa6d1;
     background: white;
     border-radius:15px;
     padding: 10px;
@@ -41,7 +43,7 @@
   }
   .home .header-content button:hover{
     border-radius: 0;
-    background-color:  #BB377D;
+    background-color:  #6aa6d1;
     color:white;
   }
 
@@ -49,7 +51,7 @@
   .home-title
   {
     text-align: center;
-    border: 4px dotted #BB377D;
+    border: 4px dotted #6aa6d1;
     padding:16px 30px;
     border-width:3px;
     font-weight: bolder;
@@ -71,9 +73,13 @@
     cursor: pointer;
   }
 
+  .carousel-item img{
+    background-size: cover;
+  }
+
   .home .carousel-caption button
   {
-      background-color: #BB377D;
+      background-color: #6aa6d1;
       border: 2px solid white;
       border-radius: 15px;
       padding: 10px 22px;
@@ -130,7 +136,7 @@
 
     .home .carousel-caption button
   {
-      background-color: #BB377D;
+      background-color: #6aa6d1;
       border: 2px solid white;
       border-radius: 15px;
       padding:5px 8px;

@@ -4,13 +4,11 @@ import { UserContext } from '../../App'
 import Footer from '../Footer/Footer'
 import Nav from '../nav/Nav'
 import './homestyles.css'
-import violence3 from './../../images/violence3.jpeg'
-import violence4 from './../../images/violence4.jpeg'
-import home from './../../images/home.png'
-import v5 from '../../images/v5.jpeg'
-import forwomen from '../../images/forwomen.jpeg'
-import hear from '../../images/hear.jpeg'
-import w from '../../images/w.jpeg'
+import mh1 from './../../images/mh1.png'
+import mh2 from './../../images/mh2.jpeg'
+import mh3 from './../../images/mh3.png'
+import homeImg from './../../images/homeImg.jpeg'
+import mental from './../../images/mental.png'
 
 const Home = () => {
 
@@ -34,7 +32,7 @@ const Home = () => {
   </ol>
   <div class="carousel-inner">
     <div className="carousel-item active">
-    <img class="d-block w-100" src={w}  alt="First slide"/>
+    <img class="d-block w-100" src={mh3}  alt="First slide"/>
     <div class="carousel-caption  d-md-block">
     <button className="btn btn-primary">
     <a href="#content" class="smooth-scroll">Read More</a>
@@ -44,7 +42,7 @@ const Home = () => {
 
 
     <div class="carousel-item">
-      <img class="d-block w-100" src={violence3} alt="Second slide"/> 
+      <img class="d-block w-100" src={mh2} alt="Second slide"/> 
       <div class="carousel-caption d-md-block">
       <button className="btn btn-primary">
           <a href="#content" class="smooth-scroll">Read More</a></button>
@@ -53,7 +51,7 @@ const Home = () => {
 
 
     <div class="carousel-item">
-      <img class="d-block w-100" src={violence4} alt="Third slide"/>
+      <img class="d-block w-100" src={mh1} alt="Third slide"/>
       <div class="carousel-caption  d-md-block">
         <button className="btn btn-primary">
           <a href="#content" class="smooth-scroll">Read More</a></button>
@@ -77,7 +75,7 @@ const Home = () => {
                
                <section className="header-content" id="content">
 
-                <img src={home}/>
+                <img src={mental}/>
 
 
                    <div className="home-text">
@@ -86,11 +84,10 @@ const Home = () => {
                     <p style={{fontWeight:'bolder'}}> Welcome everyone!<br/>
                     Share your issues with the community to spread awareness about the <br/>
                     social, mental and physical problems women face everyday.<br/>
-                    Your account may help another women going through the same. 
                     <br/>
                     Make your voice heard.
                     <br/>
-                    Hear stories of women going through it, and of women who bravely overcame it.<br/>
+                    Hear stories of others going through it, and of women who bravely overcame it.<br/>
                     </p>
                     <Link to="/grid"><button>Read Stories</button></Link>
                     <Link to="/add"><button>Share yours'</button></Link>

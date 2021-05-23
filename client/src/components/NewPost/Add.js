@@ -1,14 +1,10 @@
 import React, { useContext, useState } from 'react'
-import { Link } from 'react-router-dom';
-
 import { useHistory } from 'react-router'
 import './addstyles.css';
 import { UserContext } from '../../App';
 import Nav from '../nav/Nav';
 import Footer from '../Footer/Footer';
-import add from './../../images/add.jpeg'
 import Success from '../../Utils/Success';
-import {Alert} from 'react-bootstrap'
 import Danger from '../../Utils/Danger';
 
 const Add = () => {

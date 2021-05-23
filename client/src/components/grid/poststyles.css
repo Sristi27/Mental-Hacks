@@ -17,7 +17,7 @@
 .homegrid button{
     margin-right:5px;
     color:white;
-    background-color:#BB377D;
+    background-color:#6aa6d1;
 }
 
 .homegrid .links
@@ -31,12 +31,12 @@
 
 
 .homegrid .links h3{
-    color:#BB377D;
+    color:#6aa6d1;
     margin-right:15px;
 }
 
 .homegrid label{
- background-color:#BB377D;
+ background-color:#6aa6d1;
  color: white;
  padding: 5px 10px;
 }
@@ -44,8 +44,8 @@
 
 
 .homegrid .links button{
-    color:#BB377D;
-    border:2px solid #BB377D;
+    color:#6aa6d1;
+    border:2px solid #6aa6d1;
     border-radius: 15px;
     padding:10px 30px;
     font-size: 20px;
@@ -55,8 +55,8 @@
 
 .homegrid .links button:hover
 {
-    background: linear-gradient(to left,#9b155c,#fa9bce);
-    color:rgb(247, 230, 223)
+    background: linear-gradient(to left,#6aa6d1,#b2ebf3);
+    color:white
 }
 
 
@@ -86,7 +86,7 @@
 
 .gridContainer .homegrid .filter .form-check label
 {
-    color:#c51c76;
+    color:#0599d3;
     background-color: transparent;
     padding: 0;
 }
@@ -95,7 +95,7 @@
 {
     margin-bottom:20%;
     font-size: 1.5em;
-    color:#BB377D;
+    color:#6aa6d1;
     font-weight: bolder;
 
 }
@@ -110,11 +110,9 @@
 
 
 .gridContainer .card-columns .card{
-margin-bottom: 12px;
-/* background:url('https://i.pinimg.com/originals/b2/69/08/b26908ab0a42478b85726e60ed5dd124.jpg') center; */
-background-size:cover;
+margin-bottom: 12px;background-size:cover;
 background-repeat:no-repeat;
-border:2px solid #BB377D;
+border:2px solid #6aa6d1;
 border-radius:10px;
 }
 
@@ -138,7 +136,7 @@ border-radius:10px;
 {
     padding:5px 10px;
     float:right;
-    border: 1px solid #BB377D;
+    border: 1px solid #6aa6d1;
     border-radius: 5px;
 }
 
